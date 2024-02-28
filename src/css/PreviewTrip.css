@@ -1,0 +1,58 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+.preview-container {
+    padding-bottom: 5vh;
+    max-width: 25em;
+}
+.preview-image-container img {
+    border-radius: 1.75rem;
+    width: 100%;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.description-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.text-bubble{
+    background-color: lightgray;
+    border-radius: 6.25rem;
+    width: fit-content;
+    padding: 2vh 5vw;
+    line-height: 0.78125rem;
+    margin-top: 0.3em;
+}
+.text-bubble p {
+    margin: 0;
+    padding: 0;
+}
+.text-bubble span {
+    font-size: 0.625rem;
+    color: black;
+}
+.preview-image-container {
+    position: relative;
+    z-index: -1;
+}
+.preview-location {
+    position: absolute;
+    float: right;
+    right: 15px;
+    bottom: 20px;
+}
+.hashtag-container {
+    display: flex;
+}
+.hashtag {
+    margin-right: 2vw;
+}
+
+.orange-ship-name {
+    color: #EB8C0F;
+}

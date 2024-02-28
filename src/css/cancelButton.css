@@ -1,0 +1,21 @@
+.cancelButton {
+   width: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   border: 1px solid var(--m-3-sys-light-outline, #03658C);
+   padding: 10px 24px;
+   height: 40px;
+   gap: 8px;
+   background: var(--m-3-sys-light-primary, #fff);
+   color: var(--m-3-sys-light-on-primary, #03658C);
+   text-align: center;
+   font-family: Roboto;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: 1px;
+}

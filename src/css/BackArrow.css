@@ -1,0 +1,12 @@
+.backArrow {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 60px;
+   height: 50px;
+   z-index: 100;
+}

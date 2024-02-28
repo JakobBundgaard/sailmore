@@ -1,0 +1,31 @@
+nav {
+    overflow: hidden;
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+nav ul {
+    padding: 1.4em 0.2em;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin: 0;
+}
+nav ul li {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+nav a.active img{
+    filter: invert(19%) sepia(72%) saturate(3327%) hue-rotate(181deg) brightness(60%) contrast(98%);
+}
+
+li img{
+    width: 23px;
+}

@@ -1,0 +1,69 @@
+details>summary {
+ 
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  summary::after {
+    content: ' >';
+    float: right;
+  }
+  details[open] summary:after {
+    content: " v";
+    float: right;
+  }
+.name-and-age {
+    display: flex;
+
+}
+.name-and-age h3 {
+    align-self: center;
+    margin-left: 3vw;
+}
+.name-and-age h1 {
+    margin: 0;
+    max-width: 50vw;
+    overflow-wrap: break-word;
+}
+.profile-hashtags {
+    display: flex;
+}
+.profile-top h4 {
+    margin: 2vh 0;
+}
+.profile-images {
+    width: 100vw;
+}
+.profile-images img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.profile-top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.edit-profile {
+    position: absolute;
+    right: 0;
+}
+.profile-hashtag {
+    margin-right: 2vw;
+}
+hr {
+    margin: 2vh 0;
+}
+
+.addShip {
+    position: absolute;
+    right: 0;
+}
+.myShips {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}

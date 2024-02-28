@@ -1,0 +1,22 @@
+.saveButton {
+   width: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   border: none;
+   padding: 10px 24px;
+   height: 40px;
+   gap: 8px;
+   background: var(--m-3-sys-light-primary, #03658C);
+
+   color: var(--m-3-sys-light-on-primary, #fff);
+   text-align: center;
+   font-family: Roboto;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 20px; 
+   letter-spacing: 1px;
+}

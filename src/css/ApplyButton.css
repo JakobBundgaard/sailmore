@@ -1,0 +1,10 @@
+.applyButton {
+    width: 5em;
+    height: 3em;
+    margin-top: 10px;
+    border: none;
+    border-radius: 1.75rem;
+    font-size: 14px;
+    background-color: #EB8C0F;
+    color: white;
+  }

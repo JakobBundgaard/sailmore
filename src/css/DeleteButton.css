@@ -1,0 +1,18 @@
+.deleteButton {
+    background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 17px;
+    right: 0;
+    z-index: 100;
+ }
